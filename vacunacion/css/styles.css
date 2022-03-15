@@ -53,12 +53,12 @@ span{
 .nav-container li{
 	text-align: center;
 	margin: 15px auto;
+	margin-right: 50px;
 }
 
 a{
 	text-decoration: none;
 	font-size: 20px;
-	color: white;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 2px;
 	padding: 5px 20px;
