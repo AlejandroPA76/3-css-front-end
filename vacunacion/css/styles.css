@@ -93,7 +93,60 @@ a{
 	letter-spacing: 5px;
 	font-size: 50px;
 }
+.flex-container{
+	border: 1px solid black;
+	display: flex;
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 
+}
+.caja{
+	border: 1px solid rgb(70, 69, 69);
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	width: 120px;
+	line-height: center;
+	text-align: center;
+	margin: 5px;
+}
+
+.caja1{
+	border: 1px solid rgb(70, 69, 69);
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	width: 600px;
+	line-height: center;
+	text-align: center;
+	margin: 5px;
+}
+.caja2{
+	border: 1px solid rgb(70, 69, 69);
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	width: auto;
+	line-height: center;
+	text-align: center;
+	margin: 5px;
+}
+
+.titulo1{
+	width: 330px;
+	font-size: 55px;
+}
+.descripcion2{
+	width: auto;
+}
+.img1{
+	width: 25px;
+}
+.fotos{
+	width: 500px;
+}
 @media screen and (min-width:  768px){
 	.navbar{
 		display: flex;
