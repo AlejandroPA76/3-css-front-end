@@ -72,11 +72,11 @@ a{
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 2px;
-	padding: 5px 20px;
 	padding: 12px 28px;
 	color: #6d7b93;
 	margin: 0;
   	border-radius: 4px;
+  	
 
 }
 .active{
@@ -95,11 +95,11 @@ a{
 }
 .flex-container{
 	border: 1px solid black;
+	padding: 20px;
 	display: flex;
-	padding: 30px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-flow: row wrap;
+	width: 90%;
+	margin: 0 auto; 
 
 }
 .caja{
@@ -118,12 +118,30 @@ a{
 	background-color: white;
 	color: black;
 	font-weight: bold;
-	width: 600px;
+	width: 300px;
+	
+	line-height: center;
+	text-align: center;
+	margin: 0 auto;
+	flex-basis: 50%; <! --esto es para que el contenerdor este a la mitad --> 
+	justifiy-content: center
+
+
+}
+.caja2{
+	border: 1px solid rgb(70, 69, 69);
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	width: auto;
+	font-size: 35px;
 	line-height: center;
 	text-align: center;
 	margin: 5px;
+	
 }
-.caja2{
+
+.caja3{
 	border: 1px solid rgb(70, 69, 69);
 	background-color: white;
 	color: black;
@@ -134,19 +152,60 @@ a{
 	margin: 5px;
 }
 
+.caja4{
+	border: 1px solid rgb(70, 69, 69);
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	width: 600px;
+	line-height: center;
+	text-align: center;
+	margin: 5px;
+}
+
+.caja5{
+	border: 1px solid rgb(70, 69, 69);
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	width: 100%;
+	line-height: center;
+	text-align: center;
+	margin: 5px;
+}
+
 .titulo1{
-	width: 330px;
-	font-size: 55px;
+	width: auto;
+	font-size: 110px;
+}
+.titulo2{
+	width: auto;
+	font-size: 40px;
 }
 .descripcion2{
 	width: auto;
+	
 }
+
+.descripcion3{
+	width: 35px;
+	color: #2747c5;
+	font-weight: bold;
+}
+
 .img1{
 	width: 25px;
 }
 .fotos{
-	width: 500px;
+	width: 600px;	
+
 }
+.logo2{
+	width: 200px;
+
+}
+
+
 @media screen and (min-width:  768px){
 	.navbar{
 		display: flex;
@@ -161,6 +220,9 @@ a{
 	}
 	.hb-button{
 		display: none;
+	}
+	.button{
+		
 	}
 
 	.logo:hover,
