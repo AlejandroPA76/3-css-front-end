@@ -5,7 +5,7 @@
 }
 
 body{
-	background-color: #eeeeee;
+	background-color: white;
 
 }
 .navbar{
@@ -79,6 +79,9 @@ a{
   	
 
 }
+.button2{
+
+}
 .active{
 	display: block;
 }
@@ -146,7 +149,7 @@ a{
 	background-color: white;
 	color: black;
 	font-weight: bold;
-	width: auto;
+	width: 100%;
 	line-height: center;
 	text-align: center;
 	margin: 5px;
@@ -173,6 +176,26 @@ a{
 	text-align: center;
 	margin: 5px;
 }
+.caja6{
+	border: 1px solid rgb(70, 69, 69);
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	width: 23%;
+	line-height: center;
+	text-align: center;
+	margin: 5px;
+}
+.caja7{
+	border: 1px solid rgb(70, 69, 69);
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	width: 50%;
+	line-height: center;
+	text-align: center;
+	margin: 5px;
+}
 
 .titulo1{
 	width: auto;
@@ -188,7 +211,7 @@ a{
 }
 
 .descripcion3{
-	width: 35px;
+	width: 30%;
 	color: #2747c5;
 	font-weight: bold;
 }
@@ -197,7 +220,7 @@ a{
 	width: 25px;
 }
 .fotos{
-	width: 600px;	
+	width: 700px;	
 
 }
 .logo2{
