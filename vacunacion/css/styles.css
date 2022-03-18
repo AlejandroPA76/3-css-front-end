@@ -126,7 +126,7 @@ a{
 }
 
 .caja{
-	border: 1px solid rgb(70, 69, 69);
+	
 	background-color: white;
 	color: black;
 	font-weight: bold;
@@ -219,9 +219,20 @@ a{
 
 }
 
+.caja8{
+	border: 1px solid rgb(70, 69, 69);
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	width: 45%;
+	line-height: center;
+	text-align: center;
+	margin: 5px;
+}
 .titulo1{
 	width: auto;
 	font-size: 110px;
+	color: #2747c5;
 }
 .titulo2{
 	width: auto;
