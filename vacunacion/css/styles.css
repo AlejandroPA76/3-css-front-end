@@ -140,7 +140,7 @@ a{
 	font-size: 50px;
 }
 .flex-container{
-	border: 1px solid black;
+	
 	padding: 20px;
 	display: flex;
 	flex-flow: row wrap;
@@ -150,7 +150,7 @@ a{
 }
 
 .contenedor{
-	border: 1px solid black;
+	
 	padding: 20px;
 	display: flex;
 	flex-flow: row wrap;
@@ -171,7 +171,7 @@ a{
 }
 
 .caja1{
-	border: 1px solid rgb(70, 69, 69);
+	
 	background-color: white;
 	color: black;
 	font-weight: bold;
@@ -185,7 +185,7 @@ a{
 
 }
 .caja2{
-	border: 1px solid rgb(70, 69, 69);
+
 	background-color: white;
 	color: black;
 	font-weight: bold;
@@ -198,7 +198,7 @@ a{
 }
 
 .caja3{
-	border: 1px solid rgb(70, 69, 69);
+
 	background-color: white;
 	color: black;
 	font-weight: bold;
@@ -209,7 +209,7 @@ a{
 }
 
 .caja4{
-	border: 1px solid rgb(70, 69, 69);
+	
 	background-color: white;
 	color: black;
 	font-weight: bold;
@@ -221,7 +221,7 @@ a{
 }
 
 .caja5{
-	border: 1px solid rgb(70, 69, 69);
+
 	background-color: white;
 	color: black;
 	font-weight: bold;
@@ -231,7 +231,7 @@ a{
 	margin: 5px;
 }
 .caja6{
-	border: 1px solid rgb(70, 69, 69);
+
 	background-color: white;
 	color: black;
 	font-weight: bold;
@@ -241,7 +241,7 @@ a{
 	margin: 5px;
 }
 .caja7{
-	border: 1px solid rgb(70, 69, 69);
+
 	background-color: white;
 	color: black;
 	font-weight: bold;
@@ -254,7 +254,7 @@ a{
 }
 
 .caja8{
-	border: 1px solid rgb(70, 69, 69);
+
 	background-color: white;
 	color: black;
 	font-weight: bold;
@@ -265,7 +265,7 @@ a{
 }
 
 .caja9{
-	border: 1px solid rgb(70, 69, 69);
+	
 	background-color: none;
 	color: black;
 	font-weight: bold;
