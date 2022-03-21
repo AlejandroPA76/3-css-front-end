@@ -83,10 +83,48 @@ a{
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 2px;
 	padding: 12px 28px;
-	color: #6d7b93;
+
 	margin: 0;
   	border-radius: 4px;
 }
+
+.color-blue{
+	background-color: #3555d3;
+}
+
+.letra-blue{
+	color:  #3555d3;
+}
+
+.color.gris{
+	background-color: #f1f5ff;
+}
+
+.letra-gris{
+	color: #77849c;
+}
+
+.letra-blue-power{
+	color: #1f3e72;
+}
+
+.button-emergency{
+	border-radius: 4px;
+	padding: 14px 40px;
+	background-color: #f1f5ff;
+	border: 2px solid #f1f5ff;
+	color: #3555d3;
+}
+
+.button-emergency-blue{
+	border-radius: 4px;
+	padding: 14px 40px;
+	color: white;
+	background-color: #3555d3;
+	border: 2px solid #f1f5ff;
+}
+
+
 .active{
 	display: block;
 }
@@ -116,7 +154,7 @@ a{
 	padding: 20px;
 	display: flex;
 	flex-flow: row wrap;
-	width: 90%;
+	width: auto;
 	margin: 0 auto; 
 	justify-content: space-between;
 }
@@ -175,7 +213,7 @@ a{
 	background-color: white;
 	color: black;
 	font-weight: bold;
-	width: 800px;
+	width: 70%;
 	line-height: center;
 	text-align: center;
 	margin: 5px;
@@ -207,10 +245,10 @@ a{
 	background-color: white;
 	color: black;
 	font-weight: bold;
-	width: 22%;
+	width:22%;
 	line-height: center;
 	text-align: center;
-	margin: 5px;
+	margin: 6px;
 	
 
 }
@@ -225,16 +263,38 @@ a{
 	text-align: center;
 	margin: 5px;
 }
+
+.caja9{
+	border: 1px solid rgb(70, 69, 69);
+	background-color: none;
+	color: black;
+	font-weight: bold;
+	width:18%;
+	line-height: center;
+	text-align: center;
+	margin: 6px;
+	
+
+}
+
+
 .titulo1{
 	width: auto;
 	font-size: 110px;
-	color: #2747c5;
+	color: #1f3e72;
 }
 .titulo2{
 	width: auto;
 	font-size: 40px;
 	font-family: "Arial",bold;
 }
+
+.titulo3{
+	width: auto;
+	font-size: 30px;
+	font-family: "Arial",bold;
+}
+
 .descripcion2{
 	width: auto;
 	
@@ -252,6 +312,15 @@ a{
 	
 }
 
+.descripcion5{
+	font-family: "Arial",;
+	font-size: 20px;
+	width:auto;
+	
+}
+
+
+
 .img1{
 	width: 25px;
 }
@@ -264,8 +333,11 @@ a{
 
 }
 
+.background-footer{
+	background-color: #eef3ff;
+}
 
-@media screen and (min-width:  768px){
+@media screen and (min-width:  1008px){
 	.navbar{
 		display: flex;
 		justify-content: space-between;
@@ -297,5 +369,10 @@ a{
 	.nav-container{
 		margin: 0;
 	}
+
+	.footer {
+  height: 4rem;
+  background-color: #e2e2e2
+}
 }
 
